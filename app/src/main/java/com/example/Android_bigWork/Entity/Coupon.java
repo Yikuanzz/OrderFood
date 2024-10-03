@@ -8,8 +8,6 @@ import com.example.Android_bigWork.Database.CouponDao;
 
 @Entity(tableName = "coupon_table")
 public class Coupon {
-
-
     @PrimaryKey(autoGenerate = true)
     public int CID;             //  优惠券ID
     private int type;       // 优惠券类型

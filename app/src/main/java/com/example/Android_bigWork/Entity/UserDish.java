@@ -47,15 +47,7 @@ public class UserDish {
 
     }
 
-    /**
-     * 比较两个UserDish是否相等
-     *
-     * @param userDish
-     * @return boolean
-     * @Author Bubu
-     * @date 2022/11/3 22:14
-     * @commit
-     */
+    // equals 比较两个UserDish是否相等
     public boolean equals(UserDish userDish){
         return (userDish.getGID()==this.GID &&
                 userDish.getSpicy()==this.spicy &&

@@ -18,9 +18,7 @@ public class Dish {     // 菜品类
     private boolean sweet;  // 甜味是否可选
     private int count;  // 选购份数
 
-    public Dish() {
-
-    }
+    public Dish() {}
 
     public Dish(int gid, String name, String description, double price, String category, int CID, boolean spicy, boolean sweet) {
         this.GID = gid;

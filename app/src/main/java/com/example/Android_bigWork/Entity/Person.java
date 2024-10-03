@@ -10,15 +10,15 @@ public class Person implements Serializable {
     @PrimaryKey(autoGenerate = true)
     public int UID;
 
-    public String username;
-    public String password;
-    public long phoneNumber;
-    public int gender;
-    public int payPassword;
+    public String username;   // 姓名
+    public String password;  // 密码
+    public long phoneNumber;  // 手机号码
+    public int gender;   // 性别
+    public int payPassword;   // 支付密码
 
     public static final int GENDER_MALE = 0;
     public static final int GENDER_FEMALE = 1;
-    public static final long serialVersionUID = 1L;//这是序列化的版本号
+    public static final long serialVersionUID = 1L; // 序列化的版本号
 
     public Person(String username, String password, long phoneNumber, int gender, int payPassword) {
         this.username = username;
